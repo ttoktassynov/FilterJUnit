@@ -6,10 +6,7 @@ import java.util.Set;
 public class CustomFilter extends Filter {
     HashSet<String> methods;
     public CustomFilter(Set<String> methods) {
-        this.methods = new HashSet<String>();
-        for(String method: methods) {
-            this.methods.add(method);
-        }
+        this.methods = new HashSet<>(methods);
     }
     @Override
     public boolean shouldRun(Description description) {
