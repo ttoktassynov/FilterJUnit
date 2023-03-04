@@ -23,3 +23,4 @@ Alternatively, in maven projects one can use Maven Surefire Plugin to run set of
 ```
 mvn -Dtest=FaultyTest#test1+test2+test3 test
 ```
+Contact Timur if you have questions
